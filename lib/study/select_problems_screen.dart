@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:tang_clue/constants/gaps.dart';
 import 'package:tang_clue/constants/sizes.dart';
-import 'package:tang_clue/study/study_problems_screen_x1.dart';
+import 'package:tang_clue/study/study_problems_screen.dart';
 
 class SelectProblemsScreen extends StatelessWidget {
   const SelectProblemsScreen({Key? key}) : super(key: key);
 
   void _onTapProbplem(context) {
     Navigator.of(context).push(
-        MaterialPageRoute(builder: (context) => const StudyProblemsScreenX1()));
+        MaterialPageRoute(builder: (context) => const StudyProblemsScreen()));
   }
 
   @override
