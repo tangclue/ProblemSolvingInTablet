@@ -4,16 +4,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tang_clue/constants/gaps.dart';
 import 'package:tang_clue/constants/sizes.dart';
-import 'package:tang_clue/widgets/drawing_board_dg.dart';
+import 'package:tang_clue/widgets/drawing_board_x1.dart';
 
-class StudyProblemsScreenEx extends StatefulWidget {
-  const StudyProblemsScreenEx({Key? key}) : super(key: key);
+class StudyProblemsScreenX1 extends StatefulWidget {
+  const StudyProblemsScreenX1({Key? key}) : super(key: key);
 
   @override
-  State<StudyProblemsScreenEx> createState() => _StudyProblemsScreenExState();
+  State<StudyProblemsScreenX1> createState() => _StudyProblemsScreenX1State();
 }
 
-class _StudyProblemsScreenExState extends State<StudyProblemsScreenEx> {
+class _StudyProblemsScreenX1State extends State<StudyProblemsScreenX1> {
   int _hintStep = 0;
   final TextEditingController _ansController = TextEditingController();
   String _ans = "";
@@ -115,7 +115,15 @@ class _StudyProblemsScreenExState extends State<StudyProblemsScreenEx> {
                     const FractionallySizedBox(
                       widthFactor: 1,
                     ),
-                    const Expanded(child: DrawingBoardDG()),
+                    Expanded(
+                      child: DrawingBoardX1(
+                        background: Container(
+                          color: Colors.white,
+                          width: 20000,
+                          height: 20000,
+                        ),
+                      ),
+                    ),
                     Row(
                       children: [
                         Expanded(

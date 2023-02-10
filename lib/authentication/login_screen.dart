@@ -46,18 +46,13 @@ class LoginScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const Expanded(
+            Expanded(
               child: Padding(
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                     horizontal: Sizes.size80 + Sizes.size80),
                 child: FractionallySizedBox(
                   // heightFactor: 0.3,
-                  child: Image(
-                    image: NetworkImage(
-                        "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/62b82ea1-36c1-4adb-b413-da0b9a32525f/BI_TangClue_instagram.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230208T010305Z&X-Amz-Expires=86400&X-Amz-Signature=24c831f39e656dc8f09cc898a63ef717de7d1b00889a11bdf0e0897d39b11daf&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22BI_TangClue_instagram.png%22&x-id=GetObject"),
-                    // height: Sizes.size48,
-                    // fit: BoxFit.cover,
-                  ),
+                  child: Image.asset('assets/image1.png'),
                 ),
               ),
             ),

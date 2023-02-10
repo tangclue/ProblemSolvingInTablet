@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tang_clue/constants/sizes.dart';
 
-class DrawingBoard extends StatefulWidget {
-  const DrawingBoard({super.key});
+class DrawingBoardDG extends StatefulWidget {
+  const DrawingBoardDG({super.key});
 
   @override
-  _DrawingBoardState createState() => _DrawingBoardState();
+  _DrawingBoardDGState createState() => _DrawingBoardDGState();
 }
 
-class _DrawingBoardState extends State<DrawingBoard> {
+class _DrawingBoardDGState extends State<DrawingBoardDG> {
   List<List<Offset>> _drawings = [];
   List<Offset> _currentDrawing = <Offset>[];
 

@@ -62,6 +62,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_drawing_board:
+    dependency: "direct main"
+    description:
+      name: flutter_drawing_board
+      sha256: "568a639734099ca44c2c6a9fe7c42e10a7b3cfa2457ac4fbac39f09403dcd562"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.3+2"
+  flutter_hsvcolor_picker:
+    dependency: transitive
+    description:
+      name: flutter_hsvcolor_picker
+      sha256: "5612d51d3f826f7c7f5cb8c2462a9d13f2b71884f4765aaf69f04e3ee06a18bf"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.3"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -186,3 +202,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.19.0 <4.0.0"
+  flutter: ">=3.0.0"

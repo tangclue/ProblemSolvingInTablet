@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tang_clue/constants/sizes.dart';
-import 'package:tang_clue/study/study_problems_screen_ex.dart';
+
+import 'authentication/login_screen.dart';
 
 void main() {
   runApp(const MathStudyApp());
@@ -24,6 +25,6 @@ class MathStudyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           primaryColor: Colors.amber,
         ),
-        home: const StudyProblemsScreenEx());
+        home: const LoginScreen());
   }
 }
