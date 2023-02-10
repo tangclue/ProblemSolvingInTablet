@@ -15,7 +15,7 @@ class SelectProblemsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("문제 Lists"),
+        title: const Text("문제 List"),
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
